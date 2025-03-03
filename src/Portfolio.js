@@ -28,7 +28,7 @@ const HeroSection = () => {
                 <Button
                        variant="light"
                        className="mx-2 my-4 rounded-pill"
-                       href="/My Resume.pdf"  // Ensure your file is in the public folder
+                       href="/Ugo cv.pdf"  // Ensure your file is in the public folder
                        target="_blank"
                        rel="noopener noreferrer"
                      >

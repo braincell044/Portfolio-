@@ -45,7 +45,7 @@ const Contact = () => {
       <div className="container contact-links text-center">
         <Row className="justify-content-center flex-wrap">
           <Col xs={6} md={2} className="mb-3">
-            <Button variant="outline-primary" className="rounded-pill w-100" href="/My Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline-primary" className="rounded-pill w-100" href="/Ugo cv.pdf" target="_blank" rel="noopener noreferrer">
               <i className="bi bi-file-earmark-text me-2"></i> Resume
             </Button>
           </Col>

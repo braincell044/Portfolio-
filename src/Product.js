@@ -34,7 +34,7 @@ const Product = () => {
           <h3 className="fw-bold"> Apple E-commerce</h3>
           <p className="text-muted">
           Apple E-commerce is an ecommerce fullstack application built using
-            Nextjs for the frontend and Node.js for the backend. Users can browse
+            Nextjs for the frontend and Node.js for the backend. Users can (signup/login) browse
             products, add them to their cart, and proceed to checkout.
           </p>
 
@@ -75,7 +75,7 @@ const Product = () => {
     <div className="w-100 w-md-50 mt-3 mt-md-0 ps-md-4">
           <h3 className="fw-bold">  Investment Platform</h3>
           <p className="text-muted">
-         This investment platform designed to attract investors, showcase financial opportunities, and ensure secure user transactions. This full-stack application is built with cutting-edge technology for seamless performance, user authentication, and real-time data integration.
+         This investment platform designed to attract investors, showcase financial opportunities, and ensure secure user transactions. This full-stack application is built with cutting-edge technology for seamless performance, user authentication, also enabels users to deposit and real-time data integration.
 
           </p>
 
