@@ -28,7 +28,7 @@ const About = () => {
             <br/>
          <p>
          
-I'm a results-driven Full-Stack Developer with a passion for building high-performance, scalable web applications that drive business growth 🚀. Leveraging modern technologies like React, Node.js, MongoDB, and AWS, I've successfully delivered over 30 production-grade websites for startups, businesses, and investors 💼. Whether you're launching a new product or optimizing an existing one, I’m here to help bring your vision to life! 💡
+I'm a results-driven Full-Stack Developer with a passion for building high-performance, scalable web applications that drive business growth 🚀. Leveraging modern technologies like React, Node.js, MongoDB, and AWS, I've successfully delivered over 30+ production-grade websites for startups, businesses, and investors 💼. Whether you're launching a new product or optimizing an existing one, I’m here to help bring your vision to life! 💡
 <br/>
 <br/>
 

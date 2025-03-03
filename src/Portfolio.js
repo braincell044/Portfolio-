@@ -2,7 +2,6 @@ import React from "react";
 import {  Row, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Ugobueze from './assesst/image/Ugobueze.jpeg'
-import Port from './Port'
 import { Container, Navbar, Nav} from "react-bootstrap";
 import Coursel from './Coursel'
 import './App.css'
@@ -11,6 +10,7 @@ import About from "./About";
 import Product from "./Product";
 import Meth from "./Meth";
 import Type from './Type'
+import Contact from "./Contact";
 
 
 const HeroSection = () => {
@@ -54,7 +54,10 @@ href="mailto:Ugochukwumeshach5@gmail.com?subject=Let's Work Together">
           {/* Left Side - Text */}
           <Col md={6} className="text-center text-md-start">
           <Type/>
-            <h1 className="fw-bold">I develop dynamic and User-friendly Web Applications that drive Business growth 🚀</h1>
+          <h1 className="fw-bold">
+  I develop dynamic, user-friendly web applications that drive business growth 🚀
+</h1>
+
             <p>
               I specialize in full-stack web development, crafting high-performing solutions that deliver exceptional user experiences. Let's transform your ideas into impactful digital products and achieve your goals.
             </p>
@@ -90,7 +93,8 @@ href="mailto:Ugochukwumeshach5@gmail.com?subject=Let's Work Together">
 <About/>
 <Product/>
 <Meth/>
-      <Port/>
+    
+      <Contact/>
     </div>
 </div>
    

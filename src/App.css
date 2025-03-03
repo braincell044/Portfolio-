@@ -70,8 +70,25 @@
     border-left-color: blue;
     animation: spin 2s linear infinite;
   }
-  .what{
+    .what{
     margin-left: 230px !important;
+  } 
+ 
+  .Ugobueze{
+    margin-top: 180px !important;
+  }
+
+  .contact{
+    margin-left: 0px !important;
+  }
+  .hr-1{
+    border-color: black;
+    border-width: 2px;
+    width: 1070px;
+    margin-left: 170px;
+  }
+  .over-now{
+    overflow: hidden;
   }
   @keyframes spin {
     0% {
@@ -85,7 +102,41 @@
     .flex-small{
         flex-direction: column;
     }
-    /* .ugo{
-        display: none;
-    } */
+   
+    .Ugobueze{
+      margin-top: 10px !important;
+    }
+        
+    .hr-1{
+      border-color: black;
+      border-width: 2px;
+      width: 300px;
+  
+      margin-left: 40px;
+      height: 5px;
+    }
+    .contact{
+      margin-left: 10px !important;
+    }
+     .what{
+    margin-left: 90px !important;
+    width: 50% !important;
+ 
   }
+   .port{
+    flex-direction: column;
+
+  }
+  
+     .over-now{
+    overflow: hidden;
+  }
+ 
+ 
+
+  /* .port-2{
+  margin: 0px !important;
+  padding: 0px;
+  text-align: center;
+  }  */
+  } 

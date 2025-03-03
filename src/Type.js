@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const TypingAnimation = () => {
-  const text = "Hi there👋 I'm Ugobueze - Full Stack Web Developer";
+  const text = "Hi there👋 I'm Ugochukwu - Full Stack Web Developer";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true); // Track typing status

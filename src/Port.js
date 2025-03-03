@@ -37,9 +37,10 @@ Don’t hesitate—let’s collaborate and bring your business idea to life 💡
         <h4 className="fw-bold mt-4">Call Us</h4>
         <p>
           <strong>+234(0)7039987705</strong> <br />
-    <div className=" mx-5">
-    <WhatsAppButton/>
-    </div>
+ 
+
+<WhatsAppButton/>
+
           
           <small className="text-muted">Mon-Fri 09:00 - 17:00</small>
         </p>
@@ -47,17 +48,63 @@ Don’t hesitate—let’s collaborate and bring your business idea to life 💡
           </Col>
 
           {/* Image Section */}
-          <Col md={5} className="text-center ">
-            <img
+          <Col md={5} className=" ">
+        <div className="Ugobueze">
+        <img
               src={Simle}
               alt="Ugobueze"
-              className="img-fluid ugo rounded w-100"
+              className="img-fluid ugo  rounded w-100"
               style={{ maxWidth: "100%", borderRadius: "10px" }}
             />
+        </div>
           </Col>
         </Row>
       </Container>
+     <div className="container contact ">
+     <div className="row port">
+        <div className="col-2 col">
+          <Button
+                                variant=""
+                                className="mx-2 text-muted my-4 rounded-pill"
+                                href="/My Resume.pdf"  // Ensure your file is in the public folder
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                 Resume
+                              </Button>
+        </div>
+        <div className="col col-2">
+    
+          <Button variant="" 
+          className=" text-muted rounded-pill my-3 pt-3 ">Linkedin</Button>
 
+        </div>
+        <div className="col col-2">
+         
+         <li className="bx bxl-github" ></li> <Button variant=""
+           className=" text-muted rounded-pill my-3 pt-3 ">Github</Button>
+
+        </div>
+      
+        <div className="col col-2">
+        <Button variant="" 
+        className=" text-muted rounded-pill my-3 pt-3 "
+        href="mailto:Ugochukwumeshach5@gmail.com?subject=Let's Work Together">
+                      Gmail
+                    </Button>
+        </div>
+        <div className="col col-2">
+        
+          <Button variant=""
+           className=" text-muted rounded-pill my-3 pt-3 ">Instagram</Button>
+
+        </div>
+      </div>
+     </div>
+<hr/>
+<div className="mx-5  px-5"> 
+<p className="px-5 text-muted">© 2025 Ugochukwu</p>
+</div>
   
     </div>
   );
