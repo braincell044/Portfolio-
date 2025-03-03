@@ -9,7 +9,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Contact = () => {
   return (
-    <div className='over-now'>
+    <div className='over-now' style={{ background: "linear-gradient(to bottom, #fce4ec, #fff)", minHeight: "70vh" }}>
       <div className="contact-section">
         <Container className="text-center text-md-start d-flex flex-column align-items-center py-5">
           <Row className="align-items-center w-100">
