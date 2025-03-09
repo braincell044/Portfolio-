@@ -101,6 +101,11 @@
   .flex-small{
     display: flex !important;
   }
+  .glass{
+    background-color: rgba(249, 248, 248, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+  }
   .crown {
     position: absolute;
     top: -18px;  /* Moves it above the 'e' */

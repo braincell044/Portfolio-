@@ -16,7 +16,7 @@ import Contact from "./Contact";
 const HeroSection = () => {
   return (
 <div>
-<Navbar bg="light" expand="lg" className="py-3 px-4 fixed-top">
+<Navbar bg="light" expand="lg" className="py-3 glass px-4 fixed-top">
 <Navbar.Brand href="#" className="fw-bold fs-3 position-relative">
   Ugobu<span className="crown">👑</span>eze
 </Navbar.Brand>
