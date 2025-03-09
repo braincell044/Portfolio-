@@ -17,7 +17,12 @@ const HeroSection = () => {
   return (
 <div>
 <Navbar bg="light" expand="lg" className="py-3 px-4 fixed-top">
-                <Navbar.Brand href="#" className="fw-bold fs-3">Ugobueze</Navbar.Brand>
+<Navbar.Brand href="#" className="fw-bold fs-3 position-relative">
+  Ugobu<span className="crown">👑</span>eze
+</Navbar.Brand>
+
+
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="ms-auto">
