@@ -93,6 +93,14 @@
   .contact-image{
     margin-top: 200px;
   }
+  .about-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .flex-small{
+    display: flex !important;
+  }
   @keyframes spin {
     0% {
       transform: rotate(0deg);

@@ -5,9 +5,41 @@ import './App.css'
 import Crypto from './assesst/image/Screenshot 2025-03-03 at 00.02.58.png'
 import boot from './assesst/image/Screenshot 2025-03-03 at 00.13.58.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+
+
 const Product = () => {
   return (
-   <div>
+   <div className="over-now">
      <section id="Product" className="d-flex flex-column align-items-center justify-content-center py-5 ">
       {/* Work Button */}
       <div className="text-center my-5">
@@ -19,6 +51,9 @@ const Product = () => {
       </h3>
 
       {/* Project Card */}
+      <div data-aos="zoom-in-up"  >
+
+      
       <div className="container bg-white p-4 rounded shadow-lg d-flex flex-column flex-md-row align-items-center">
         {/* Project Image */}
         <div className="w-100 w-md-50 text-center">
@@ -33,9 +68,10 @@ const Product = () => {
         <div className="w-100 w-md-50 mt-3 mt-md-0 ps-md-4">
           <h3 className="fw-bold"> Apple E-commerce</h3>
           <p className="text-muted">
-          Apple E-commerce is an ecommerce fullstack application built using
-            Nextjs for the frontend and Node.js for the backend. Users can (signup/login) browse
-            products, add them to their cart, and proceed to checkout.
+          Apple E-commerce is a full-stack e-commerce application built with Next.js 
+          for the frontend and Node.js for the backend. Users can sign up or log in, 
+          browse products, add items to their cart, and complete the checkout process.
+           They can also access support, add new products to the website, and test the site's performance in real time.
           </p>
 
           {/* Tech Stack */}
@@ -67,11 +103,12 @@ const Product = () => {
           </a>
         </div>
       </div>
+      </div>
 
       
     </section>
-
-    <div className="container bg-white p-4 rounded shadow-lg d-flex flex-column flex-md-row align-items-center">
+<div data-aos="zoom-in-right" >
+    <div  className="container bg-white p-4 rounded shadow-lg d-flex flex-column flex-md-row align-items-center">
     <div className="w-100 w-md-50 mt-3 mt-md-0 ps-md-4">
           <h3 className="fw-bold">  Investment Platform</h3>
           <p className="text-muted">
@@ -121,10 +158,12 @@ const Product = () => {
         {/* Project Details */}
  
       </div>
+      </div>
 
 
       <section className="my-5">
-      <div className="container bg-white p-4 rounded shadow-lg d-flex flex-column flex-md-row align-items-center">
+        <div data-aos="zoom-out-down">
+      <div  className="container bg-white p-4 rounded shadow-lg d-flex flex-column flex-md-row align-items-center">
         {/* Project Image */}
         <div className="w-100 w-md-50 text-center">
           <img
@@ -171,6 +210,7 @@ Accelerate your business growth with Brainwave a variety of unique blocks, allow
             <i className="bx bx-link-external"></i> View Project
           </a>
         </div>
+      </div>
       </div>
       </section>
    </div>

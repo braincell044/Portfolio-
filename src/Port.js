@@ -9,12 +9,13 @@ import WhatsAppButton  from './What'
 
 const ConnectPage = () => {
   return (
-    <div style={{ background: "linear-gradient(to bottom, #fce4ec, #fff)", minHeight: "70vh" }}>
+    <div  style={{ background: "linear-gradient(to bottom, #fce4ec, #fff)", minHeight: "70vh" }}>
       {/* Main Section */}
       <Container className="text-center text-md-start d-flex flex-column align-items-center py-5">
         <Row className="align-items-center w-100 ">
           {/* Text Section */}
-          <Col md={7} className="mb-4 mb-md-0">
+          <Col md={7} className="mb-4 mb-md-0"
+          >
             <h1 className="fw-bold">Let's Connect.</h1>
             <p className="text-muted">
          

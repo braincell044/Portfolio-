@@ -49,7 +49,8 @@ const ExpertiseSection = () => {
       <h3>The core methodologies that shape my approach and expertise in web development:</h3>
       </div>
 
-      <div className="row g-4">
+      <div className="row g-4" data-aos="fade-up"
+     data-aos-duration="2000">
         {expertiseData.map((item, index) => (
           <div className="col-md-6 col-lg-4" key={index}>
             <div className="p-4 rounded-3 shadow-sm" style={{ background: "#fdf7f2" }}>

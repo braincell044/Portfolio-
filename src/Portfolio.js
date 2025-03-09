@@ -52,7 +52,11 @@ href="mailto:Ugochukwumeshach5@gmail.com?subject=Let's Work Together">
         
         <Row className="align-items-center">
           {/* Left Side - Text */}
-          <Col md={6} className="text-center text-md-start">
+  
+          <Col md={6} className="text-center text-md-start"
+           data-aos="fade-right"
+           data-aos-offset="500"
+           data-aos-easing="ease-in-sine">
           <Type/>
           <h1 className="fw-bold">
   I develop dynamic, user-friendly web applications that drive business growth 🚀
@@ -76,7 +80,10 @@ href="mailto:Ugochukwumeshach5@gmail.com?subject=Let's Work Together">
           </Col>
           
           {/* Right Side - Image */}
-          <Col md={6} className="text-center">
+          <Col md={6} className="text-center"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+     data-aos-duration="1500">
             <img
               src={Ugobueze}
               alt="Ugobueze"
